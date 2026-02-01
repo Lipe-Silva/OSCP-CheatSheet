@@ -66,16 +66,16 @@ My approach to privilege escalation is simple, Attempt the low-hanging fruit / e
 **Windows:**
 
 Attempt low hanging fruit:
-- [ ] whoami /priv
-- [ ] readable SAM & SYSTEM files 
+* [ ] whoami /priv
+* [ ] readable SAM & SYSTEM files 
 
 **Linux:**
 
 Attempt low hanging fruit:
-- [ ] sudo --version
-- [ ] sudo -l
-- [ ] find / -perm -u=s  -type f 2>/dev/null
-- [ ] find / -writable
+* [ ] sudo --version
+* [ ] sudo -l
+* [ ] find / -perm -u=s  -type f 2>/dev/null
+* [ ] find / -writable
 
 ### Pivoting & Tunneling
 
